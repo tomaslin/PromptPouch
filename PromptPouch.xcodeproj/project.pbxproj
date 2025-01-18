@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE8249E2D3C6D5600D97326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE8249D2D3C6D5600D97326 /* AppDelegate.swift */; };
+		BFE824A02D3C6D5600D97326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE8249F2D3C6D5600D97326 /* SceneDelegate.swift */; };
+		BFE824A32D3C6D5600D97326 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFE824A22D3C6D5600D97326 /* Base */; };
+		BFE824A62D3C6D5600D97326 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFE824A52D3C6D5600D97326 /* Base */; };
+		BFE824AF2D3C6D5600D97326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE824AE2D3C6D5600D97326 /* AppDelegate.swift */; };
+		BFE824B22D3C6D5600D97326 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFE824B12D3C6D5600D97326 /* Base */; };
+		BFE824B92D3C6D5600D97326 /* PromptPouch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BFE824B82D3C6D5600D97326 /* PromptPouch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFE824C32D3C6D5600D97326 /* PromptPouch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BFE824C22D3C6D5600D97326 /* PromptPouch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFE824C92D3C6D5600D97326 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFE824852D3C6D5500D97326 /* Base */; };
+		BFE824CA2D3C6D5600D97326 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFE824852D3C6D5500D97326 /* Base */; };
+		BFE824CB2D3C6D5600D97326 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE824862D3C6D5500D97326 /* Icon.png */; };
+		BFE824CC2D3C6D5600D97326 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE824862D3C6D5500D97326 /* Icon.png */; };
+		BFE824CD2D3C6D5600D97326 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BFE824872D3C6D5500D97326 /* Style.css */; };
+		BFE824CE2D3C6D5600D97326 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BFE824872D3C6D5500D97326 /* Style.css */; };
+		BFE824CF2D3C6D5600D97326 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824882D3C6D5500D97326 /* Script.js */; };
+		BFE824D02D3C6D5600D97326 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824882D3C6D5500D97326 /* Script.js */; };
+		BFE824D12D3C6D5600D97326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE824892D3C6D5500D97326 /* ViewController.swift */; };
+		BFE824D22D3C6D5600D97326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE824892D3C6D5500D97326 /* ViewController.swift */; };
+		BFE824D32D3C6D5600D97326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE8248A2D3C6D5600D97326 /* Assets.xcassets */; };
+		BFE824D42D3C6D5600D97326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE8248A2D3C6D5600D97326 /* Assets.xcassets */; };
+		BFE824D52D3C6D5600D97326 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE8248C2D3C6D5600D97326 /* SafariWebExtensionHandler.swift */; };
+		BFE824D62D3C6D5600D97326 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE8248C2D3C6D5600D97326 /* SafariWebExtensionHandler.swift */; };
+		BFE824D72D3C6D5600D97326 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BFE8248E2D3C6D5600D97326 /* _locales */; };
+		BFE824D82D3C6D5600D97326 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BFE8248E2D3C6D5600D97326 /* _locales */; };
+		BFE824D92D3C6D5600D97326 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BFE8248F2D3C6D5600D97326 /* images */; };
+		BFE824DA2D3C6D5600D97326 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BFE8248F2D3C6D5600D97326 /* images */; };
+		BFE824DB2D3C6D5600D97326 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BFE824902D3C6D5600D97326 /* manifest.json */; };
+		BFE824DC2D3C6D5600D97326 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BFE824902D3C6D5600D97326 /* manifest.json */; };
+		BFE824DD2D3C6D5600D97326 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824912D3C6D5600D97326 /* background.js */; };
+		BFE824DE2D3C6D5600D97326 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824912D3C6D5600D97326 /* background.js */; };
+		BFE824DF2D3C6D5600D97326 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824922D3C6D5600D97326 /* content.js */; };
+		BFE824E02D3C6D5600D97326 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824922D3C6D5600D97326 /* content.js */; };
+		BFE824E12D3C6D5600D97326 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BFE824932D3C6D5600D97326 /* popup.html */; };
+		BFE824E22D3C6D5600D97326 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BFE824932D3C6D5600D97326 /* popup.html */; };
+		BFE824E32D3C6D5600D97326 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BFE824942D3C6D5600D97326 /* popup.css */; };
+		BFE824E42D3C6D5600D97326 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BFE824942D3C6D5600D97326 /* popup.css */; };
+		BFE824E52D3C6D5600D97326 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824952D3C6D5600D97326 /* popup.js */; };
+		BFE824E62D3C6D5600D97326 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BFE824952D3C6D5600D97326 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE824BA2D3C6D5600D97326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE8247E2D3C6D5500D97326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE824B72D3C6D5600D97326;
+			remoteInfo = "PromptPouch Extension (iOS)";
+		};
+		BFE824C42D3C6D5600D97326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE8247E2D3C6D5500D97326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE824C12D3C6D5600D97326;
+			remoteInfo = "PromptPouch Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFE824EC2D3C6D5600D97326 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BFE824B92D3C6D5600D97326 /* PromptPouch Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824F32D3C6D5600D97326 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BFE824C32D3C6D5600D97326 /* PromptPouch Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFE824852D3C6D5500D97326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		BFE824862D3C6D5500D97326 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BFE824872D3C6D5500D97326 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BFE824882D3C6D5500D97326 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BFE824892D3C6D5500D97326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFE8248A2D3C6D5600D97326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE8248C2D3C6D5600D97326 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BFE8248E2D3C6D5600D97326 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		BFE8248F2D3C6D5600D97326 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BFE824902D3C6D5600D97326 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		BFE824912D3C6D5600D97326 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		BFE824922D3C6D5600D97326 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		BFE824932D3C6D5600D97326 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		BFE824942D3C6D5600D97326 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		BFE824952D3C6D5600D97326 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		BFE8249A2D3C6D5600D97326 /* PromptPouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromptPouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE8249D2D3C6D5600D97326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE8249F2D3C6D5600D97326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFE824A22D3C6D5600D97326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE824A52D3C6D5600D97326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE824A72D3C6D5600D97326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE824AC2D3C6D5600D97326 /* PromptPouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromptPouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE824AE2D3C6D5600D97326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE824B12D3C6D5600D97326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE824B32D3C6D5600D97326 /* PromptPouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PromptPouch.entitlements; sourceTree = "<group>"; };
+		BFE824B82D3C6D5600D97326 /* PromptPouch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PromptPouch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE824BD2D3C6D5600D97326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE824C22D3C6D5600D97326 /* PromptPouch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PromptPouch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE824C72D3C6D5600D97326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE824C82D3C6D5600D97326 /* PromptPouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PromptPouch.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE824972D3C6D5600D97326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824A92D3C6D5600D97326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824B52D3C6D5600D97326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824BF2D3C6D5600D97326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE8247D2D3C6D5500D97326 = {
+			isa = PBXGroup;
+			children = (
+				BFE824822D3C6D5500D97326 /* Shared (App) */,
+				BFE8248B2D3C6D5600D97326 /* Shared (Extension) */,
+				BFE8249C2D3C6D5600D97326 /* iOS (App) */,
+				BFE824AD2D3C6D5600D97326 /* macOS (App) */,
+				BFE824BC2D3C6D5600D97326 /* iOS (Extension) */,
+				BFE824C62D3C6D5600D97326 /* macOS (Extension) */,
+				BFE8249B2D3C6D5600D97326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE824822D3C6D5500D97326 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BFE824892D3C6D5500D97326 /* ViewController.swift */,
+				BFE8248A2D3C6D5600D97326 /* Assets.xcassets */,
+				BFE824832D3C6D5500D97326 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		BFE824832D3C6D5500D97326 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFE824842D3C6D5500D97326 /* Main.html */,
+				BFE824862D3C6D5500D97326 /* Icon.png */,
+				BFE824872D3C6D5500D97326 /* Style.css */,
+				BFE824882D3C6D5500D97326 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFE8248B2D3C6D5600D97326 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BFE8248C2D3C6D5600D97326 /* SafariWebExtensionHandler.swift */,
+				BFE8248D2D3C6D5600D97326 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		BFE8248D2D3C6D5600D97326 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BFE8248E2D3C6D5600D97326 /* _locales */,
+				BFE8248F2D3C6D5600D97326 /* images */,
+				BFE824902D3C6D5600D97326 /* manifest.json */,
+				BFE824912D3C6D5600D97326 /* background.js */,
+				BFE824922D3C6D5600D97326 /* content.js */,
+				BFE824932D3C6D5600D97326 /* popup.html */,
+				BFE824942D3C6D5600D97326 /* popup.css */,
+				BFE824952D3C6D5600D97326 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFE8249B2D3C6D5600D97326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE8249A2D3C6D5600D97326 /* PromptPouch.app */,
+				BFE824AC2D3C6D5600D97326 /* PromptPouch.app */,
+				BFE824B82D3C6D5600D97326 /* PromptPouch Extension.appex */,
+				BFE824C22D3C6D5600D97326 /* PromptPouch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE8249C2D3C6D5600D97326 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BFE8249D2D3C6D5600D97326 /* AppDelegate.swift */,
+				BFE8249F2D3C6D5600D97326 /* SceneDelegate.swift */,
+				BFE824A12D3C6D5600D97326 /* LaunchScreen.storyboard */,
+				BFE824A42D3C6D5600D97326 /* Main.storyboard */,
+				BFE824A72D3C6D5600D97326 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		BFE824AD2D3C6D5600D97326 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				BFE824AE2D3C6D5600D97326 /* AppDelegate.swift */,
+				BFE824B02D3C6D5600D97326 /* Main.storyboard */,
+				BFE824B32D3C6D5600D97326 /* PromptPouch.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		BFE824BC2D3C6D5600D97326 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BFE824BD2D3C6D5600D97326 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		BFE824C62D3C6D5600D97326 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				BFE824C72D3C6D5600D97326 /* Info.plist */,
+				BFE824C82D3C6D5600D97326 /* PromptPouch.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE824992D3C6D5600D97326 /* PromptPouch (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE824ED2D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch (iOS)" */;
+			buildPhases = (
+				BFE824962D3C6D5600D97326 /* Sources */,
+				BFE824972D3C6D5600D97326 /* Frameworks */,
+				BFE824982D3C6D5600D97326 /* Resources */,
+				BFE824EC2D3C6D5600D97326 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE824BB2D3C6D5600D97326 /* PBXTargetDependency */,
+			);
+			name = "PromptPouch (iOS)";
+			productName = "PromptPouch (iOS)";
+			productReference = BFE8249A2D3C6D5600D97326 /* PromptPouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE824AB2D3C6D5600D97326 /* PromptPouch (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE824F42D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch (macOS)" */;
+			buildPhases = (
+				BFE824A82D3C6D5600D97326 /* Sources */,
+				BFE824A92D3C6D5600D97326 /* Frameworks */,
+				BFE824AA2D3C6D5600D97326 /* Resources */,
+				BFE824F32D3C6D5600D97326 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE824C52D3C6D5600D97326 /* PBXTargetDependency */,
+			);
+			name = "PromptPouch (macOS)";
+			productName = "PromptPouch (macOS)";
+			productReference = BFE824AC2D3C6D5600D97326 /* PromptPouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE824B72D3C6D5600D97326 /* PromptPouch Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE824E92D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch Extension (iOS)" */;
+			buildPhases = (
+				BFE824B42D3C6D5600D97326 /* Sources */,
+				BFE824B52D3C6D5600D97326 /* Frameworks */,
+				BFE824B62D3C6D5600D97326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PromptPouch Extension (iOS)";
+			productName = "PromptPouch Extension (iOS)";
+			productReference = BFE824B82D3C6D5600D97326 /* PromptPouch Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BFE824C12D3C6D5600D97326 /* PromptPouch Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE824F02D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch Extension (macOS)" */;
+			buildPhases = (
+				BFE824BE2D3C6D5600D97326 /* Sources */,
+				BFE824BF2D3C6D5600D97326 /* Frameworks */,
+				BFE824C02D3C6D5600D97326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PromptPouch Extension (macOS)";
+			productName = "PromptPouch Extension (macOS)";
+			productReference = BFE824C22D3C6D5600D97326 /* PromptPouch Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE8247E2D3C6D5500D97326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BFE824992D3C6D5600D97326 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BFE824AB2D3C6D5600D97326 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BFE824B72D3C6D5600D97326 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BFE824C12D3C6D5600D97326 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = BFE824812D3C6D5500D97326 /* Build configuration list for PBXProject "PromptPouch" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE8247D2D3C6D5500D97326;
+			productRefGroup = BFE8249B2D3C6D5600D97326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE824992D3C6D5600D97326 /* PromptPouch (iOS) */,
+				BFE824AB2D3C6D5600D97326 /* PromptPouch (macOS) */,
+				BFE824B72D3C6D5600D97326 /* PromptPouch Extension (iOS) */,
+				BFE824C12D3C6D5600D97326 /* PromptPouch Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE824982D3C6D5600D97326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824CB2D3C6D5600D97326 /* Icon.png in Resources */,
+				BFE824A32D3C6D5600D97326 /* Base in Resources */,
+				BFE824C92D3C6D5600D97326 /* Base in Resources */,
+				BFE824CF2D3C6D5600D97326 /* Script.js in Resources */,
+				BFE824D32D3C6D5600D97326 /* Assets.xcassets in Resources */,
+				BFE824A62D3C6D5600D97326 /* Base in Resources */,
+				BFE824CD2D3C6D5600D97326 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824AA2D3C6D5600D97326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824CC2D3C6D5600D97326 /* Icon.png in Resources */,
+				BFE824CE2D3C6D5600D97326 /* Style.css in Resources */,
+				BFE824B22D3C6D5600D97326 /* Base in Resources */,
+				BFE824D02D3C6D5600D97326 /* Script.js in Resources */,
+				BFE824D42D3C6D5600D97326 /* Assets.xcassets in Resources */,
+				BFE824CA2D3C6D5600D97326 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824B62D3C6D5600D97326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824DD2D3C6D5600D97326 /* background.js in Resources */,
+				BFE824E32D3C6D5600D97326 /* popup.css in Resources */,
+				BFE824E12D3C6D5600D97326 /* popup.html in Resources */,
+				BFE824D92D3C6D5600D97326 /* images in Resources */,
+				BFE824DB2D3C6D5600D97326 /* manifest.json in Resources */,
+				BFE824D72D3C6D5600D97326 /* _locales in Resources */,
+				BFE824DF2D3C6D5600D97326 /* content.js in Resources */,
+				BFE824E52D3C6D5600D97326 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824C02D3C6D5600D97326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824DE2D3C6D5600D97326 /* background.js in Resources */,
+				BFE824E42D3C6D5600D97326 /* popup.css in Resources */,
+				BFE824E22D3C6D5600D97326 /* popup.html in Resources */,
+				BFE824DA2D3C6D5600D97326 /* images in Resources */,
+				BFE824DC2D3C6D5600D97326 /* manifest.json in Resources */,
+				BFE824D82D3C6D5600D97326 /* _locales in Resources */,
+				BFE824E02D3C6D5600D97326 /* content.js in Resources */,
+				BFE824E62D3C6D5600D97326 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE824962D3C6D5600D97326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824D12D3C6D5600D97326 /* ViewController.swift in Sources */,
+				BFE8249E2D3C6D5600D97326 /* AppDelegate.swift in Sources */,
+				BFE824A02D3C6D5600D97326 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824A82D3C6D5600D97326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824D22D3C6D5600D97326 /* ViewController.swift in Sources */,
+				BFE824AF2D3C6D5600D97326 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824B42D3C6D5600D97326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824D52D3C6D5600D97326 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE824BE2D3C6D5600D97326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE824D62D3C6D5600D97326 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE824BB2D3C6D5600D97326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE824B72D3C6D5600D97326 /* PromptPouch Extension (iOS) */;
+			targetProxy = BFE824BA2D3C6D5600D97326 /* PBXContainerItemProxy */;
+		};
+		BFE824C52D3C6D5600D97326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE824C12D3C6D5600D97326 /* PromptPouch Extension (macOS) */;
+			targetProxy = BFE824C42D3C6D5600D97326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE824842D3C6D5500D97326 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE824852D3C6D5500D97326 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BFE824A12D3C6D5600D97326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE824A22D3C6D5600D97326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE824A42D3C6D5600D97326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE824A52D3C6D5600D97326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE824B02D3C6D5600D97326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE824B12D3C6D5600D97326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE824E72D3C6D5600D97326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFE824E82D3C6D5600D97326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BFE824EA2D3C6D5600D97326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PromptPouch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch.Extension;
+				PRODUCT_NAME = "PromptPouch Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE824EB2D3C6D5600D97326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PromptPouch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch.Extension;
+				PRODUCT_NAME = "PromptPouch Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE824EE2D3C6D5600D97326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PromptPouch;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch;
+				PRODUCT_NAME = PromptPouch;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE824EF2D3C6D5600D97326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PromptPouch;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch;
+				PRODUCT_NAME = PromptPouch;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE824F12D3C6D5600D97326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/PromptPouch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PromptPouch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch.Extension;
+				PRODUCT_NAME = "PromptPouch Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BFE824F22D3C6D5600D97326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/PromptPouch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PromptPouch Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch.Extension;
+				PRODUCT_NAME = "PromptPouch Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BFE824F52D3C6D5600D97326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/PromptPouch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PromptPouch;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch;
+				PRODUCT_NAME = PromptPouch;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BFE824F62D3C6D5600D97326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/PromptPouch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3GWE7NQU6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PromptPouch;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaslin.PromptPouch;
+				PRODUCT_NAME = PromptPouch;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE824812D3C6D5500D97326 /* Build configuration list for PBXProject "PromptPouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE824E72D3C6D5600D97326 /* Debug */,
+				BFE824E82D3C6D5600D97326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE824E92D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE824EA2D3C6D5600D97326 /* Debug */,
+				BFE824EB2D3C6D5600D97326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE824ED2D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE824EE2D3C6D5600D97326 /* Debug */,
+				BFE824EF2D3C6D5600D97326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE824F02D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE824F12D3C6D5600D97326 /* Debug */,
+				BFE824F22D3C6D5600D97326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE824F42D3C6D5600D97326 /* Build configuration list for PBXNativeTarget "PromptPouch (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE824F52D3C6D5600D97326 /* Debug */,
+				BFE824F62D3C6D5600D97326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE8247E2D3C6D5500D97326 /* Project object */;
+}
