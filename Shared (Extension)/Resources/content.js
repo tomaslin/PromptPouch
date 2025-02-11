@@ -21,6 +21,10 @@ if (isCopilot()) {
   textField = "rich-textarea";
 } else if (isDeepSeek()) {
   textField = "#chat-input";
+} else if (isNotebookLM()) {
+  textField = ".query-box-input";
+} else if (isChatGpt()){
+  textField = ".ProseMirror";
 }
 
 const initialPrompts = [
@@ -46,7 +50,13 @@ waitForElement(textField, () => {
     return;
   }
 
-  var parent = goUpLevels(textField, 2);
+  var levels = 2;
+
+    if(isNotebookLM()){
+        levels = 4;
+    }
+    
+  var parent = goUpLevels(textField, levels);
 
   var newPromptsContainer = document.createElement("div");
   newPromptsContainer.style.display = "flex";
@@ -81,14 +91,36 @@ function generateNewDiv(name, content, textField) {
   newDiv.textContent = name;
   newDiv.addEventListener("click", function () {
     var textarea = document.querySelector(textField);
-    if (isGemini()) {
-      textarea.children[0].innerText = content;
-      textarea.children[0].focus();
-    } else {
-      textarea.value = content;
-    }
+      if(isChatGpt()){
+        const p = document.createElement('p');
+        p.textContent = content;
+        if (textarea.querySelector('.placeholder')) {
+          textarea.innerHTML = '';
+        }
+        textarea.appendChild(p);
+      } else {
+        textarea.value = content;
+      }
+      textarea.dispatchEvent(new Event('input', { bubbles: true }));
+      textarea.focus();
+      textarea.setSelectionRange(content.length, content.length);
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(textarea);
+      range.collapse(false);
+      selection.removeAllRanges();
+      selection.addRange(range);
+   
   });
   return newDiv;
+}
+
+function isNotebookLM() {
+  return document.location.href.indexOf("notebooklm.google.com") > -1;
+}
+
+function isChatGpt() {
+  return document.location.href.indexOf("chatgpt.com") > -1;
 }
 
 function goUpLevels(textField, levels) {
